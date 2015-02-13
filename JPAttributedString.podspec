@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JPAttributedString"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "A DSL for creating, changing, and using NSAttributedStrings"
   s.description      = <<-DESC
                        A DSL for creating, changing, and using NSAttributedStrings
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = "James Paolantonio"
   s.source           = { :git => "https://github.com/jPaolantonio/JPAttributedString.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/jPaolantonio'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -33,5 +33,4 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
