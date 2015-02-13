@@ -1,28 +1,20 @@
 PODS:
-  - Expecta (0.3.1)
-  - JPAttributedString (0.1.0)
-  - Specta (0.3.0.beta1)
+  - Expecta (0.3.2)
+  - JPAttributedString (0.1.2)
+  - Specta (0.3.2)
 
 DEPENDENCIES:
-  - Expecta (~> 0.3.1)
+  - Expecta (~> 0.3.2)
   - JPAttributedString (from `../`)
-  - Specta (from `https://github.com/specta/specta.git`, tag `v0.3.0.beta1`)
+  - Specta (~> 0.3.2)
 
 EXTERNAL SOURCES:
   JPAttributedString:
     :path: ../
-  Specta:
-    :git: https://github.com/specta/specta.git
-    :tag: v0.3.0.beta1
-
-CHECKOUT OPTIONS:
-  Specta:
-    :git: https://github.com/specta/specta.git
-    :tag: v0.3.0.beta1
 
 SPEC CHECKSUMS:
-  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
-  JPAttributedString: 8f638fc867c60f4afe1487e6a70cd2fa9faafa3e
-  Specta: 63e8ac8e07db6675c7096d37f77a266a1be4c02d
+  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  JPAttributedString: 329de9b6873fde2919656d57741d6f4de01d3ab9
+  Specta: 698a58ffa5ec948327d3b92eab50ca58d7f4fbe8
 
 COCOAPODS: 0.35.0
