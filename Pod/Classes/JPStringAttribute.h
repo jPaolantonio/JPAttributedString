@@ -10,15 +10,14 @@
 
 @interface JPStringAttribute : NSObject
 
+///------------------------------------
+/// @name NSAttributedString Attributes
+///------------------------------------
+
 /**
  *  NSFontAttributeName
  */
 @property (strong, nonatomic) UIFont *font;
-
-/**
- *  NSParagraphStyleAttributeName
- */
-@property (strong, nonatomic) NSParagraphStyle *paragraphStyle;
 
 /**
  *  NSForegroundColorAttributeName
@@ -84,6 +83,30 @@
  *  NSStrikethroughColorAttributeName
  */
 @property (strong, nonatomic) UIColor *strikethroughColor;
+
+///----------------------------------
+/// @name NSParagraphStyle Attributes
+///----------------------------------
+
+@property(assign, nonatomic) CGFloat lineSpacing;
+@property(assign, nonatomic) CGFloat paragraphSpacing;
+@property(assign, nonatomic) NSTextAlignment alignment;
+@property(assign, nonatomic) CGFloat firstLineHeadIndent;
+@property(assign, nonatomic) CGFloat headIndent;
+@property(assign, nonatomic) CGFloat tailIndent;
+@property(assign, nonatomic) NSLineBreakMode lineBreakMode;
+@property(assign, nonatomic) CGFloat minimumLineHeight;
+@property(assign, nonatomic) CGFloat maximumLineHeight;
+@property(assign, nonatomic) NSWritingDirection baseWritingDirection;
+@property(assign, nonatomic) CGFloat lineHeightMultiple;
+@property(assign, nonatomic) CGFloat paragraphSpacingBefore;
+@property(assign, nonatomic) float hyphenationFactor;
+@property(copy, nonatomic) NSArray *tabStops;
+@property(assign, nonatomic) CGFloat defaultTabInterval;
+
+///----------------------------
+/// @name Attributed Dictionary
+///----------------------------
 
 /**
  *  Creates a NSDictionary to be used as a NSAttributedString's attributes

@@ -20,6 +20,62 @@ pod 'JPAttributedString'
 
 #### NSAttributedString Creation
 
+What's the biggest issue when creating `NSAttributedStrings`?
+
+```objc
+NSAttributedString *attributedString =
+    [[NSAttributedString alloc] initWithString:@"James"
+                                    attributes:@{
+                                                 NSFontAttributeName : [UIFont boldSystemFontOfSize:22.f],
+                                                 NSForegroundColorAttributeName : [UIColor blackColor],
+                                                 }];
+self.label.attributedText = attributedString;
+```
+
+The code is rather verbose and not very reusable. Let's try extracting the dictionary.
+
+```objc
+JPStringAttribute *attribute = [[JPStringAttribute alloc] init];
+attribute.font = [UIFont boldSystemFontOfSize:22.f];
+attribute.foregroundColor = [UIColor blackColor];
+self.label.attributedText = [[NSAttributedString alloc] initWithString:@"James"
+                                                            attributes:attribute.attributedDictionary];
+```
+
+#### NSParagraphStyle
+
+`NSParagraphStyle` is a property of `NSAttributedString` that allows further configuration of paragraph or ruler attributes. With `JPStringAttribute`, paragraph style is easier to modify.
+
+```objc
+NSMutableParagraphStyle *mutableStyle = [[NSMutableParagraphStyle alloc] init];
+mutableStyle.paragraphSpacing = 8.f;
+mutableStyle.lineBreakMode = NSLineBreakByTruncatingMiddle;
+
+NSAttributedString *attributedString =
+    [[NSAttributedString alloc] initWithString:@"James"
+                                    attributes:@{
+                                                 NSFontAttributeName : [UIFont boldSystemFontOfSize:22.f],
+                                                 NSForegroundColorAttributeName : [UIColor blackColor],
+                                                 NSParagraphStyleAttributeName : mutableStyle,
+                                                 }];
+self.label.attributedText = attributedString;
+```
+
+Compared to
+
+```objc
+JPStringAttribute *attribute = [[JPStringAttribute alloc] init];
+attribute.font = [UIFont boldSystemFontOfSize:22.f];
+attribute.foregroundColor = [UIColor blackColor];
+attribute.paragraphSpacing = 8.f;
+attribute.lineBreakMode = NSLineBreakByTruncatingMiddle;
+self.label.attributedText = [[NSAttributedString alloc] initWithString:@"James"
+                                                                attributes:attribute.attributedDictionary];
+}
+```
+
+#### Other helpers
+
 Have you ever had to append a bunch of `NSAttributedStrings`, then assign them to a `UILabel`?
 
 ```objc
