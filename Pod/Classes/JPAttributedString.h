@@ -11,6 +11,10 @@
 
 #import "JPStringAttribute.h"
 
+#import "NSAttributedString+JPAttributedString.h"
+#import "NSString+JPAttributedString.h"
 #import "UILabel+JPAttributedString.h"
+#import "UITextField+JPAttributedString.h"
+#import "UITextView+JPAttributedString.h"
 
 #endif
