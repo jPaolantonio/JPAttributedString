@@ -7,6 +7,6 @@ end
 target 'Tests', :exclusive => true do
   pod "JPAttributedString", :path => "../"
 
-  pod 'Expecta', '~> 0.3.2'
-  pod 'Specta', '~> 0.3.2'
+  pod 'Expecta', '~> 1.0.3'
+  pod 'Specta', '~> 1.0.4'
 end
