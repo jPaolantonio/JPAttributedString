@@ -8,7 +8,7 @@
 
 #import "JPViewController.h"
 
-#import <JPAttributedString/JPAttributedString.h>
+#import "JPAttributedString.h"
 
 @interface JPViewController ()
 @property (strong, nonatomic) UILabel *label;

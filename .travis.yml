@@ -2,11 +2,11 @@ language: objective-c
 
 before_install:
     - gem install cocoapods
-    - pod install --project-directory=Example
+    - pod install
 
 osx_image: xcode7
 
-xcode_workspace: Example/JPAttributedString.xcworkspace
+xcode_workspace: JPAttributedString.xcworkspace
 xcode_scheme: JPAttributedString-Example
 xcode_sdk:
     - iphonesimulator9.0
