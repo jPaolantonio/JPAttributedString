@@ -5,6 +5,7 @@ A DSL for creating, changing, and using NSAttributedStrings
 
 [![CI Status](http://img.shields.io/travis/jPaolantonio/JPAttributedString.svg?style=flat)](https://travis-ci.org/jPaolantonio/JPAttributedString)
 [![Version](https://img.shields.io/cocoapods/v/JPAttributedString.svg?style=flat)](http://cocoadocs.org/docsets/JPAttributedString)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/JPAttributedString.svg?style=flat)](http://cocoadocs.org/docsets/JPAttributedString)
 [![Platform](https://img.shields.io/cocoapods/p/JPAttributedString.svg?style=flat)](http://cocoadocs.org/docsets/JPAttributedString)
 
