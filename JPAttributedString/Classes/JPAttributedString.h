@@ -9,6 +9,11 @@
 #ifndef Pods_JPAttributedString_h
 #define Pods_JPAttributedString_h
 
+#import <UIKit/UIKit.h>
+
+FOUNDATION_EXPORT double JPAttributedStringVersionNumber;
+FOUNDATION_EXPORT const unsigned char JPAttributedStringVersionString[];
+
 #import "JPStringAttribute.h"
 
 #import "NSAttributedString+JPAttributedString.h"
