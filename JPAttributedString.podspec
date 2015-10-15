@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "JPAttributedString"
-  s.version          = "0.1.4"
+  s.version          = "0.1.6"
   s.summary          = "A DSL for creating, changing, and using NSAttributedStrings"
   s.description      = <<-DESC
                        A DSL for creating, changing, and using NSAttributedStrings
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes/**/*'
+  s.source_files = 'JPAttributedString/Classes/**/*'
 
   s.frameworks = 'UIKit'
 end

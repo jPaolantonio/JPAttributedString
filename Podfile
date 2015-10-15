@@ -1,12 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'JPAttributedString', :exclusive => true do
-  pod "JPAttributedString", :path => "../"
-end
-
 target 'Tests', :exclusive => true do
-  pod "JPAttributedString", :path => "../"
-
   pod 'Expecta', '~> 1.0.3'
   pod 'Specta', '~> 1.0.4'
 end

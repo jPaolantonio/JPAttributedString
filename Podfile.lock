@@ -1,20 +1,13 @@
 PODS:
   - Expecta (1.0.3)
-  - JPAttributedString (0.1.4)
   - Specta (1.0.4)
 
 DEPENDENCIES:
   - Expecta (~> 1.0.3)
-  - JPAttributedString (from `../`)
   - Specta (~> 1.0.4)
-
-EXTERNAL SOURCES:
-  JPAttributedString:
-    :path: ../
 
 SPEC CHECKSUMS:
   Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
-  JPAttributedString: ed93e61889bb5826210560f8493c394a977586e1
   Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
 
 COCOAPODS: 0.39.0
