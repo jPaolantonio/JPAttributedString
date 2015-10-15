@@ -21,7 +21,6 @@
 		4AA94A2B1BCEF1EA00D9C392 /* UILabel+JPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A221BCEF1EA00D9C392 /* UILabel+JPAttributedString.m */; settings = {ASSET_TAGS = (); }; };
 		4AA94A2C1BCEF1EA00D9C392 /* UITextField+JPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A241BCEF1EA00D9C392 /* UITextField+JPAttributedString.m */; settings = {ASSET_TAGS = (); }; };
 		4AA94A2D1BCEF1EA00D9C392 /* UITextView+JPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A261BCEF1EA00D9C392 /* UITextView+JPAttributedString.m */; settings = {ASSET_TAGS = (); }; };
-		4AA94A591BCEFCB300D9C392 /* JPAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA94A581BCEFCB300D9C392 /* JPAttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AA94A5E1BCEFCCA00D9C392 /* JPStringAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A1A1BCEF1EA00D9C392 /* JPStringAttribute.m */; };
 		4AA94A5F1BCEFCCA00D9C392 /* NSAttributedString+JPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A1C1BCEF1EA00D9C392 /* NSAttributedString+JPAttributedString.m */; };
 		4AA94A601BCEFCCA00D9C392 /* NSString+JPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A1E1BCEF1EA00D9C392 /* NSString+JPAttributedString.m */; };
@@ -29,6 +28,7 @@
 		4AA94A621BCEFCCA00D9C392 /* UILabel+JPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A221BCEF1EA00D9C392 /* UILabel+JPAttributedString.m */; };
 		4AA94A631BCEFCCA00D9C392 /* UITextField+JPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A241BCEF1EA00D9C392 /* UITextField+JPAttributedString.m */; };
 		4AA94A641BCEFCCA00D9C392 /* UITextView+JPAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA94A261BCEF1EA00D9C392 /* UITextView+JPAttributedString.m */; };
+		4ADEF2EC1BD0438400E3C6B8 /* JPAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA94A181BCEF1EA00D9C392 /* JPAttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AEA60C21BCEFD8000D8C3A9 /* JPStringAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA94A191BCEF1EA00D9C392 /* JPStringAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AEA60C31BCEFD8000D8C3A9 /* NSAttributedString+JPAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA94A1B1BCEF1EA00D9C392 /* NSAttributedString+JPAttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AEA60C41BCEFD8000D8C3A9 /* NSString+JPAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA94A1D1BCEF1EA00D9C392 /* NSString+JPAttributedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -83,7 +83,6 @@
 		4AA94A251BCEF1EA00D9C392 /* UITextView+JPAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+JPAttributedString.h"; sourceTree = "<group>"; };
 		4AA94A261BCEF1EA00D9C392 /* UITextView+JPAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+JPAttributedString.m"; sourceTree = "<group>"; };
 		4AA94A561BCEFCB300D9C392 /* JPAttributedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPAttributedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA94A581BCEFCB300D9C392 /* JPAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAttributedString.h; sourceTree = "<group>"; };
 		4AA94A5A1BCEFCB300D9C392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D5BA949B08B3BA012C28D79 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JPAttributedString-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JPAttributedString-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				4AA94A171BCEF1EA00D9C392 /* Classes */,
-				4AA94A581BCEFCB300D9C392 /* JPAttributedString.h */,
 				4AA94A5A1BCEFCB300D9C392 /* Info.plist */,
 			);
 			path = JPAttributedString;
@@ -260,7 +258,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA94A591BCEFCB300D9C392 /* JPAttributedString.h in Headers */,
+				4ADEF2EC1BD0438400E3C6B8 /* JPAttributedString.h in Headers */,
 				4AEA60C21BCEFD8000D8C3A9 /* JPStringAttribute.h in Headers */,
 				4AEA60C31BCEFD8000D8C3A9 /* NSAttributedString+JPAttributedString.h in Headers */,
 				4AEA60C41BCEFD8000D8C3A9 /* NSString+JPAttributedString.h in Headers */,
