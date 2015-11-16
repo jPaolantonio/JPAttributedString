@@ -111,6 +111,6 @@
 /**
  *  Creates a NSDictionary to be used as a NSAttributedString's attributes
  */
-- (NSDictionary<NSString *, NSObject *> *)attributedDictionary;
+- (NSDictionary<NSString *, id> *)attributedDictionary;
 
 @end
