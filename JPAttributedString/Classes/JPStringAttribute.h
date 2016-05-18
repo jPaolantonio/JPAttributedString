@@ -101,7 +101,7 @@
 @property(assign, nonatomic) CGFloat lineHeightMultiple;
 @property(assign, nonatomic) CGFloat paragraphSpacingBefore;
 @property(assign, nonatomic) float hyphenationFactor;
-@property(copy, nonatomic) NSArray *tabStops;
+@property(copy, nonatomic) NSArray<NSTextTab *> *tabStops;
 @property(assign, nonatomic) CGFloat defaultTabInterval;
 
 ///----------------------------
@@ -111,6 +111,6 @@
 /**
  *  Creates a NSDictionary to be used as a NSAttributedString's attributes
  */
-- (NSDictionary *)attributedDictionary;
+- (NSDictionary<NSString *, id> *)attributedDictionary;
 
 @end
