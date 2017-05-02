@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "JPAttributedString"
-  s.version          = "0.1.8"
+  s.version          = "0.2.0"
   s.summary          = "A DSL for creating, changing, and using NSAttributedStrings"
   s.description      = <<-DESC
                        A DSL for creating, changing, and using NSAttributedStrings
