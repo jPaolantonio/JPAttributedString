@@ -4,12 +4,12 @@ before_install:
     - gem install cocoapods
     - pod install
 
-osx_image: xcode7
+osx_image: xcode7.3
 
 xcode_workspace: JPAttributedString.xcworkspace
 xcode_scheme: JPAttributedString-Example
 xcode_sdk:
-    - iphonesimulator9.0
+    - iphonesimulator9.3
 
 notifications:
   email: false

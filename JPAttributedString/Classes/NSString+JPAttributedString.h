@@ -19,7 +19,7 @@
  *
  *  @return Newly created NSAttributedString
  */
-- (NSAttributedString *)attributedStringWithAttributes:(JPStringAttribute *)attributes;
+- (NSAttributedString * _Nonnull)attributedStringWithAttributes:(JPStringAttribute * _Nonnull)attributes;
 
 /**
  *  Creates a new NSAttributedString with the receiver as the string
@@ -28,6 +28,6 @@
  *
  *  @return Newly created NSAttributedString
  */
-- (NSAttributedString *)attributedStringWithAttributesBlock:(void(^)(JPStringAttribute *make))block;
+- (NSAttributedString * _Nonnull)attributedStringWithAttributesBlock:(void(^ _Nullable)(JPStringAttribute * _Nonnull make))block;
 
 @end

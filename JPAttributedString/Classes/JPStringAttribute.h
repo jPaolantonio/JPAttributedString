@@ -17,92 +17,92 @@
 /**
  *  NSFontAttributeName
  */
-@property (strong, nonatomic) UIFont *font;
+@property (strong, nonatomic)  UIFont * _Nullable font;
 
 /**
  *  NSForegroundColorAttributeName
  */
-@property (strong, nonatomic) UIColor *foregroundColor;
+@property (strong, nonatomic)  UIColor * _Nullable foregroundColor;
 
 /**
  *  NSBackgroundColorAttributeName
  */
-@property (strong, nonatomic) UIColor *backgroundColor;
+@property (strong, nonatomic)  UIColor * _Nullable backgroundColor;
 
 /**
  *  NSLigatureAttributeName
  */
-@property (strong, nonatomic) NSNumber *ligature;
+@property (strong, nonatomic)  NSNumber * _Nullable ligature;
 
 /**
  *  NSKernAttributeName
  */
-@property (strong, nonatomic) NSNumber *kern;
+@property (strong, nonatomic)  NSNumber * _Nullable kern;
 
 /**
  *  NSStrikethroughStyleAttributeName
  */
-@property (strong, nonatomic) NSNumber *strikethroughStyle;
+@property (strong, nonatomic)  NSNumber * _Nullable strikethroughStyle;
 
 /**
  *  NSUnderlineStyleAttributeName
  */
-@property (strong, nonatomic) NSNumber *underlineStyle;
+@property (strong, nonatomic)  NSNumber * _Nullable underlineStyle;
 
 /**
  *  NSStrokeColorAttributeName
  */
-@property (strong, nonatomic) UIColor *strokeColor;
+@property (strong, nonatomic)  UIColor * _Nullable strokeColor;
 
 /**
  *  NSStrokeWidthAttributeName
  */
-@property (strong, nonatomic) NSNumber *strokeWidth;
+@property (strong, nonatomic)  NSNumber * _Nullable strokeWidth;
 
 /**
  *  NSShadowAttributeName
  */
-@property (strong, nonatomic) NSShadow *shadow;
+@property (strong, nonatomic)  NSShadow * _Nullable shadow;
 
 /**
  *  NSTextEffectAttributeName
  */
-@property (copy, nonatomic) NSString *textEffect;
+@property (copy, nonatomic)  NSString * _Nullable textEffect;
 
 /**
  *  NSBaselineOffsetAttributeName
  */
-@property (strong, nonatomic) NSNumber *baselineOffset;
+@property (strong, nonatomic)  NSNumber * _Nullable baselineOffset;
 
 /**
  *  NSUnderlineColorAttributeName
  */
-@property (strong, nonatomic) UIColor *underlineColor;
+@property (strong, nonatomic)  UIColor * _Nullable underlineColor;
 
 /**
  *  NSStrikethroughColorAttributeName
  */
-@property (strong, nonatomic) UIColor *strikethroughColor;
+@property (strong, nonatomic)  UIColor * _Nullable strikethroughColor;
 
 ///----------------------------------
 /// @name NSParagraphStyle Attributes
 ///----------------------------------
 
-@property(assign, nonatomic) CGFloat lineSpacing;
-@property(assign, nonatomic) CGFloat paragraphSpacing;
-@property(assign, nonatomic) NSTextAlignment alignment;
-@property(assign, nonatomic) CGFloat firstLineHeadIndent;
-@property(assign, nonatomic) CGFloat headIndent;
-@property(assign, nonatomic) CGFloat tailIndent;
-@property(assign, nonatomic) NSLineBreakMode lineBreakMode;
-@property(assign, nonatomic) CGFloat minimumLineHeight;
-@property(assign, nonatomic) CGFloat maximumLineHeight;
-@property(assign, nonatomic) NSWritingDirection baseWritingDirection;
-@property(assign, nonatomic) CGFloat lineHeightMultiple;
-@property(assign, nonatomic) CGFloat paragraphSpacingBefore;
-@property(assign, nonatomic) float hyphenationFactor;
-@property(copy, nonatomic) NSArray<NSTextTab *> *tabStops;
-@property(assign, nonatomic) CGFloat defaultTabInterval;
+@property (assign, nonatomic) CGFloat lineSpacing;
+@property (assign, nonatomic) CGFloat paragraphSpacing;
+@property (assign, nonatomic) NSTextAlignment alignment;
+@property (assign, nonatomic) CGFloat firstLineHeadIndent;
+@property (assign, nonatomic) CGFloat headIndent;
+@property (assign, nonatomic) CGFloat tailIndent;
+@property (assign, nonatomic) NSLineBreakMode lineBreakMode;
+@property (assign, nonatomic) CGFloat minimumLineHeight;
+@property (assign, nonatomic) CGFloat maximumLineHeight;
+@property (assign, nonatomic) NSWritingDirection baseWritingDirection;
+@property (assign, nonatomic) CGFloat lineHeightMultiple;
+@property (assign, nonatomic) CGFloat paragraphSpacingBefore;
+@property (assign, nonatomic) float hyphenationFactor;
+@property (copy, nonatomic) NSArray<NSTextTab *> * _Nullable  tabStops;
+@property (assign, nonatomic) CGFloat defaultTabInterval;
 
 ///----------------------------
 /// @name Attributed Dictionary
@@ -111,6 +111,6 @@
 /**
  *  Creates a NSDictionary to be used as a NSAttributedString's attributes
  */
-- (NSDictionary<NSString *, id> *)attributedDictionary;
+- (NSDictionary<NSString *, id> * _Nonnull)attributedDictionary;
 
 @end

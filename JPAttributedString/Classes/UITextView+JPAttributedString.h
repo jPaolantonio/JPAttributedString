@@ -20,7 +20,7 @@
  *
  *  @return Newly created NSAttributedString
  */
-- (NSAttributedString *)jp_appendString:(NSString *)string attributes:(JPStringAttribute *)attributes;
+- (NSAttributedString * _Nonnull)jp_appendString:(NSString * _Nonnull)string attributes:(JPStringAttribute * _Nonnull)attributes;
 
 /**
  *  Appends an attributed string to a UILabel's attributedText property
@@ -30,6 +30,6 @@
  *
  *  @return Newly created NSAttributedString
  */
-- (NSAttributedString *)jp_appendString:(NSString *)string attributesBlock:(void(^)(JPStringAttribute *make))block;
+- (NSAttributedString * _Nonnull)jp_appendString:(NSString * _Nonnull)string attributesBlock:(void(^ _Nullable)(JPStringAttribute * _Nonnull make))block;
 
 @end
