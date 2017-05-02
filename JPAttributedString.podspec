@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/jPaolantonio/JPAttributedString.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/jPaolantonio'
 
-  s.platform     = :ios, '7.0'
+  s.ios.deployment_target = '7.0'
   s.requires_arc = true
 
   s.source_files = 'JPAttributedString/Classes/**/*'
 
-  s.frameworks = 'UIKit'
+  s.ios.frameworks = 'UIKit'
 end
