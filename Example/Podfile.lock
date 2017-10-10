@@ -1,0 +1,22 @@
+PODS:
+  - JPAttributedString (1.0.0)
+  - Nimble (7.0.2)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - JPAttributedString (from `../`)
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  JPAttributedString:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JPAttributedString: d75c4f7c7407c2d7d052a99fabeb5f92409a1759
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: f74f452cf2c60bb819cde1bd69b446d56dc8ca01
+
+COCOAPODS: 1.3.1
