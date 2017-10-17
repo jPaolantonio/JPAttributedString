@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "JPAttributedString"
-s.version          = "1.0.0"
+s.version          = "1.0.0-beta.1"
 s.summary          = "A DSL for creating, changing, and using NSAttributedStrings"
 s.description      = <<-DESC
 Working with NSAttributedStrings can be a pain. JPAttributedString let's you easily create attributed strings on labels and text views.
