@@ -19,9 +19,9 @@ class StringAttributesSpec: QuickSpec {
             }
             
             it("creates a proper hash") {
-                let attributes: [NSAttributedStringKey : Any] = subject.attributes()
-                expect(attributes[NSAttributedStringKey.font] as? UIFont) == UIFont.boldSystemFont(ofSize: 12)
-                expect(attributes[NSAttributedStringKey.foregroundColor] as? UIColor) == UIColor.blue
+                let attributes: [NSAttributedString.Key : Any] = subject.attributes()
+                expect(attributes[NSAttributedString.Key.font] as? UIFont) == UIFont.boldSystemFont(ofSize: 12)
+                expect(attributes[NSAttributedString.Key.foregroundColor] as? UIColor) == UIColor.blue
             }
         }
     }
