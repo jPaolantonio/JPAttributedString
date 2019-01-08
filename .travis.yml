@@ -1,11 +1,11 @@
 language: objective-c
 
 os: osx
-osx_image: xcode9
+osx_image: xcode10.1
 
 script:
 - pod install --project-directory=Example/
-- xcodebuild -workspace Example/JPAttributedString.xcworkspace -scheme JPAttributedString-Example -sdk iphonesimulator11.0 -destination 'platform=iOS Simulator,name=iPhone 6,OS=11.0' build test
+- xcodebuild -workspace Example/JPAttributedString.xcworkspace -scheme JPAttributedString-Example -sdk iphonesimulator12.1 -destination 'platform=iOS Simulator,name=iPhone XR,OS=12.1' build test
 
 notifications:
   email: false
