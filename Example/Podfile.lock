@@ -1,22 +1,27 @@
 PODS:
-  - JPAttributedString (1.0.0)
-  - Nimble (7.0.2)
-  - Quick (1.2.0)
+  - JPAttributedString (1.0.0-beta.1)
+  - Nimble (7.3.1)
+  - Quick (1.3.2)
 
 DEPENDENCIES:
   - JPAttributedString (from `../`)
-  - Nimble (~> 7.0.2)
-  - Quick (~> 1.2.0)
+  - Nimble (~> 7.3.1)
+  - Quick (~> 1.3.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   JPAttributedString:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  JPAttributedString: d75c4f7c7407c2d7d052a99fabeb5f92409a1759
-  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  JPAttributedString: cbba3575715ef155c607ca36b4a1a2751052371e
+  Nimble: 04f732da099ea4d153122aec8c2a88fd0c7219ae
+  Quick: 2623cb30d7a7f41ca62f684f679586558f483d46
 
-PODFILE CHECKSUM: f74f452cf2c60bb819cde1bd69b446d56dc8ca01
+PODFILE CHECKSUM: 6022c7dbe57c1b9ffaad607dbbb9f537a6ff1dae
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

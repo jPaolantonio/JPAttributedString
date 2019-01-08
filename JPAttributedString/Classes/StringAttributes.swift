@@ -39,8 +39,8 @@ public class StringAttributes {
     
     public init() { }
     
-    public func attributes() -> [NSAttributedStringKey : Any] {
-        var attributes : [NSAttributedStringKey : Any] = [:]
+    public func attributes() -> [NSAttributedString.Key : Any] {
+        var attributes : [NSAttributedString.Key : Any] = [:]
 
         if let font = font { attributes[.font] = font }
         if let foregroundColor = foregroundColor { attributes[.foregroundColor] = foregroundColor }
