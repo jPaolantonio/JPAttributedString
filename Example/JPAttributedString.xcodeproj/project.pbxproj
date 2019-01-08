@@ -110,7 +110,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				3DFF3DAA6717C5F5DAC2E653 /* [CP] Embed Pods Frameworks */,
-				1DC5E5F9E0D5BD78087918B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,21 +166,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1DC5E5F9E0D5BD78087918B0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JPAttributedString_Tests/Pods-JPAttributedString_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3DFF3DAA6717C5F5DAC2E653 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
